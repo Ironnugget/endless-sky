@@ -140,6 +140,7 @@ const vector<string> Ship::CATEGORIES = {
 	"Light Warship",
 	"Medium Warship",
 	"Heavy Warship",
+	"Gunship",
 	"Fighter",
 	"Drone"
 };
@@ -148,6 +149,7 @@ const vector<string> Ship::CATEGORIES = {
 
 // Set of ship types that can be carried in bays.
 const set<string> Ship::BAY_TYPES = {
+	"Gunship",
 	"Drone",
 	"Fighter"
 };
