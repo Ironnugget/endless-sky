@@ -151,7 +151,8 @@ const vector<string> Ship::CATEGORIES = {
 const set<string> Ship::BAY_TYPES = {
 	"Gunship",
 	"Drone",
-	"Fighter"
+	"Fighter",
+	"Gunship"
 };
 
 
